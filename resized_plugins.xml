@@ -1,0 +1,13 @@
+<library path="lib/libresized_image_transport">
+  <class name="image_transport/resized_pub" type="resized_image_transport::ResizedPublisher" base_class_type="image_transport::PublisherPlugin">
+    <description>
+      This plugin publishes a Image resized.
+    </description>
+  </class>
+
+  <class name="image_transport/resized_sub" type="resized_image_transport::ResizedSubscriber" base_class_type="image_transport::SubscriberPlugin">
+    <description>
+      This plugin passes through a resized Image topic.
+    </description>
+  </class>
+</library>
